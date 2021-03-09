@@ -1,9 +1,16 @@
 body {
   font-size: 62.5%;
+  background-color: #F6F6F6;
+  border-top: solid 10px #6cc6c4;
 }
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 ul {
   list-style: none;
+}
+.container {
+  height: 100vh;
+  padding: 0 20%;
 }
