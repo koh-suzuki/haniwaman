@@ -1,3 +1,5 @@
+$main__color: #9AE1DF;
+
 body {
   font-size: 62.5%;
   background-color: #F6F6F6;
@@ -9,6 +11,9 @@ a {
 }
 ul {
   list-style: none;
+}
+img {
+  vertical-align: top;
 }
 .container {
   height: 100vh;
