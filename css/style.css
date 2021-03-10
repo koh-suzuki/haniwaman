@@ -19,7 +19,6 @@ img {
 }
 
 .container {
-  height: 100vh;
   padding: 0 20%;
 }
 
@@ -208,5 +207,52 @@ img {
   padding-bottom: 10px;
   border-bottom: lightgray 1px solid;
   margin: 10px 0;
+}
+
+/* コンタクト */
+.main__contact {
+  background-color: #9AE1DF;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.contact__nav {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.contact__list {
+  display: flex;
+  justify-content: left;
+}
+
+.contact__item {
+  margin-right: 20px;
+}
+
+.contact__link {
+  font-weight: bold;
+  font-size: .7rem;
+}
+
+.contact__link span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact {
+  text-align: right;
+  padding: 20px 0;
+  font-size: .8rem;
+  border-bottom: #9AE1DF 3px solid;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.copyright small {
+  font-size: .7rem;
 }
 /*# sourceMappingURL=style.css.map */
