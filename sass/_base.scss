@@ -1,4 +1,5 @@
 $main__color: #9AE1DF;
+$main__bg__color: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
 
 body {
   font-size: 62.5%;
@@ -16,5 +17,6 @@ img {
   vertical-align: top;
 }
 .container {
-  padding: 0 20%;
+  width: 920px;
+  margin: 0 auto;
 }

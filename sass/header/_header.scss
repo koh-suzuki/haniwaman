@@ -37,18 +37,23 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  margin-bottom: 20px;
 }
 .nav__item {
   width: 20%;
-  height: 10vh;
 }
 .nav__link {
   display: block;
   padding: 10px;
-  background-color: $main__color;
-  text-shadow: 1px 1px 2px #6cc6c4;
+  background-image: $main__bg__color;
   border-right: 1px solid #ffffff;
+  &:hover {
+    background-image: linear-gradient(rgb(108,198,196) 0%,
+                                      rgb(156,227,225) 100%);
+    .nav {
+      opacity: .5;
+    }
+  }
 }
 .left__radius {
   border-top-left-radius : 7px;
