@@ -111,4 +111,8 @@ ul {
 .nav__text {
   font-size: 0.3rem;
 }
+
+.main {
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
