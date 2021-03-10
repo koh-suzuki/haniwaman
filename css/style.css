@@ -133,7 +133,7 @@ img {
   font-weight: bold;
   color: #ffffff;
   padding: 10px;
-  background-color: #9AE1DF;
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
 }
 
 .category__list {
@@ -163,7 +163,7 @@ img {
 
 /* ニュース */
 .main__inner1 {
-  width: 200px;
+  width: 250px;
 }
 
 .section__news {
