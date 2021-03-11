@@ -31,6 +31,16 @@
     color:  $main__color;
   }
 }
+.aside__category1--hover:hover {
+  .category__menu {
+    color: $main__color;
+  }
+}
+.aside__category2--hover:hover {
+  .category__menu {
+    color: #84b934;
+  }
+}
 
 /* ニュース */
 .main__inner1 {

@@ -138,7 +138,7 @@ img {
 
 .category__list {
   background-color: #ffffff;
-  border: solid 1px #9AE1DF;
+  border: solid 1px #6cc6c4;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -146,7 +146,7 @@ img {
 .category__item {
   margin: 0 10px;
   padding: 10px 0;
-  border-bottom: solid 1px #9AE1DF;
+  border-bottom: solid 1px #6cc6c4;
 }
 
 .category__item .category__menu {
@@ -158,7 +158,15 @@ img {
   display: inline-block;
   margin: 0 5px;
   font-size: .7rem;
-  color: #9AE1DF;
+  color: #6cc6c4;
+}
+
+.aside__category1--hover:hover .category__menu {
+  color: #6cc6c4;
+}
+
+.aside__category2--hover:hover .category__menu {
+  color: #84b934;
 }
 
 /* ニュース */
@@ -192,7 +200,7 @@ img {
   font-size: 1.25rem;
   padding-bottom: 30px;
   /* _base.scss */
-  border-bottom: #9AE1DF 4px solid;
+  border-bottom: #6cc6c4 4px solid;
 }
 
 .news__list {
@@ -218,7 +226,7 @@ img {
 
 /* コンタクト */
 .main__contact {
-  background-color: #9AE1DF;
+  background-color: #6cc6c4;
   margin-top: 30px;
   border-radius: 5px;
 }
@@ -231,35 +239,41 @@ img {
 .contact__list {
   display: flex;
   justify-content: left;
+  align-items: center;
 }
 
 .contact__item {
   margin-right: 20px;
 }
 
-.contact__link {
-  font-weight: bold;
-  font-size: .7rem;
+.contact__item:hover .contact__link {
+  text-decoration: underline;
 }
 
-.contact__link span {
-  font-weight: bold;
+.fa-circle {
+  font-size: .75;
   margin-right: 10px;
+  color: #ffffff;
+}
+
+.contact__link {
+  font-weight: bold;
+  font-size: .85rem;
 }
 
 .contact {
   text-align: right;
   padding: 20px 0;
   font-size: .8rem;
-  border-bottom: #9AE1DF 3px solid;
+  border-bottom: #6cc6c4 3px solid;
 }
 
 .copyright {
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0 30px;
 }
 
 .copyright small {
-  font-size: .7rem;
+  font-size: .75rem;
 }
 /*# sourceMappingURL=style.css.map */
