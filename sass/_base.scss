@@ -20,3 +20,10 @@ img {
   width: 920px;
   margin: 0 auto;
 }
+
+@include mq-down($breakpoint: md) {
+  .container {
+    width: auto;
+    margin: 0 15px;
+  }
+}

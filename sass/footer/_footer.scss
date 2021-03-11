@@ -37,3 +37,15 @@
     font-size: .75rem;
   }
 }
+@include mq-down($breakpoint: md) {
+  .contact {
+    padding: 20px 0 0;
+  }
+  .main__contact {
+    margin-top: 0;
+  }
+  .br {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

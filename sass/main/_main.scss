@@ -93,3 +93,39 @@
   margin-top: 30px;
   border-radius: 5px;
 }
+
+@include mq-down($breakpoint: md) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main__inner1 {
+    width: 100%;
+  }
+  .category__title {
+    font-size: 1.25rem;
+  }
+  .category__item 
+  .category__menu {
+    font-size: 1rem;
+  }
+  .section__image {
+    width: 603px;
+    margin: 0 auto;
+    .main__img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .section__news {
+    margin-bottom: 40px;
+  }
+  .section__news,
+  .news__list {
+    width: auto;
+  }
+  .news__text  {
+    padding: 40px 0 10px;
+  }
+}
